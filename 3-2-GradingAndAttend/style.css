@@ -5,7 +5,7 @@
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: auto auto auto auto auto;
     gap: 10px;
 }
     
@@ -30,7 +30,7 @@
     padding: 10px;
 }
   
-  .attendance-item {
+.attendance-item {
     width: 200px;
     height: 100px;
     background-color: #ffe2e2;
