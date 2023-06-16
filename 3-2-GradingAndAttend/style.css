@@ -1,0 +1,44 @@
+.navbar-nav .nav-link:hover {
+    color: rgb(255, 135, 135); /* Change to the desired hover color */
+    font-weight: bold;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+}
+    
+.grid-item {
+    background-color: #ffe2e2;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.header {
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+}
+
+.attendance-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ffe2e2;
+    padding: 10px;
+}
+  
+  .attendance-item {
+    width: 200px;
+    height: 100px;
+    background-color: #ffe2e2;
+    border: 2px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
