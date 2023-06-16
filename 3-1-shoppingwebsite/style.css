@@ -1,0 +1,48 @@
+.navbar-nav .nav-link:hover {
+    color: red; /* Change to the desired hover color */
+    font-weight: bold;
+    }
+
+.navbar-toggler {
+    height: 80px;
+    width: 80px;
+    padding: 10px 15px; /* Adjust the padding as needed */
+    }
+
+.card {
+    margin-bottom: 20px;
+    }
+
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    }
+
+h1 {
+    text-align: center;
+    }
+
+@media (max-width: 576px) {
+    .navbar {
+        background-color: rgb(255, 119, 119); /* Change to the desired color for small screens */
+    }
+    
+    .col-md-4 {
+        flex: 0 0 100%; /* Make the columns stack on top of each other on small screens */
+    }
+    }
+    
+    @media (min-width: 577px) and (max-width: 991px) {
+    .navbar {
+        background-color: rgb(124, 255, 124); /* Change to the desired color for medium screens */
+    }
+    }
+    
+    @media (min-width: 992px) {
+    .navbar {
+        background-color: rgb(103, 103, 255); /* Change to the desired color for large screens */
+    }
+    }
